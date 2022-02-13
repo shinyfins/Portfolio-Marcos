@@ -1,0 +1,58 @@
+
+/* Universl styles */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+}
+/* Header styles */
+
+header {
+    padding: 50px 35px;
+    background-color: #a5ebc0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: Copperplate, fantasy;
+  }
+
+  nav ul li{
+      cursor: pointer;
+      transition: all 0.3s ease-in;
+      position:relative;
+  }
+
+  nav li:hover {
+      background: #a5dbeb;
+  }
+
+  header a{
+    text-decoration: none;
+    color: #262481;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 2.5vw;
+}
+
