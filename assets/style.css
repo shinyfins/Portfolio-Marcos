@@ -57,7 +57,18 @@ header nav ul li a {
     font-size: 2.5vw;
 }
 
+
+.section-title {
+   flex-wrap: wrap;
+   padding: 50px 30px ;
+}
+
 /* HERO START */
+
+
+.text {
+    
+}
 
 .profile {
     padding-top: 20px;
@@ -89,6 +100,11 @@ header nav ul li a {
     float: left;
 }
 
+.profiletxt p {
+    font-size: 20px;
+    margin: auto;
+}
+
 
 .section-title {
     color: #262481;
@@ -109,6 +125,16 @@ header nav ul li a {
       width: 100%;
   }
 
+  .ProjImg2 {
+      width: 50%;
+  }
+
+  .ProjImg3 {
+      width: 50%;
+      float: inline-end right;
+      clear: both;
+  }
+
   .imgDesc {
     cursor: pointer;
     position: absolute;
@@ -127,3 +153,10 @@ header nav ul li a {
     visibility: visible;
     opacity: 100;
   }
+
+  .footer {
+      color: #262481;
+      background-color: #a5ebc0;
+      font-size: 100px;
+  }
+
