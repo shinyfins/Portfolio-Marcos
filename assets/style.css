@@ -88,3 +88,10 @@ header nav ul li a {
     width: 5%;
     float: left;
 }
+
+/* PROJECTS */
+
+.proj img {
+    width: 90%;
+    margin-left: 100px;
+}
