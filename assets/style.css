@@ -89,11 +89,6 @@ header nav ul li a {
     float: left;
 }
 
-/* PROJECTS */
-
-.proj{
-background-color: #a5ebc0;
-}
 
 .section-title {
     color: #262481;
@@ -103,17 +98,32 @@ background-color: #a5ebc0;
     
 }
 
+/* PROJECTS*/
 
+.imgWrap {
+    position: relative;
+    width: 100%;
+  }
 
-.proj img {
-    width: 90%;
-    margin-left: 100px;
+  .ProjImg {
+      width: 100%;
+  }
+
+  .imgDesc {
     cursor: pointer;
-    transition: all 0.3s ease-in;
-    
-}
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #262481a4;
+    color: #a5ebc0;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .6s, visibility .3s;
+  }
 
-.proj img:hover {
-    background: #262481;
-    
-}
+  .imgWrap:hover .imgDesc {
+    visibility: visible;
+    opacity: 100;
+  }
