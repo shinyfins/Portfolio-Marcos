@@ -56,3 +56,35 @@ header nav ul li a {
     font-size: 2.5vw;
 }
 
+/* HERO START */
+
+.profile {
+    padding-top: 20px;
+    width: 1500px;
+    height: auto;
+    background-image: url("images/Bubbles.gif");;
+    margin: 0 auto 30px auto;
+    color: #262481;
+    overflow: auto;
+}
+
+.profile img {
+    width: 35%;
+    float: left;
+}
+
+.profiletxt {
+    padding: 35px;
+    float: right;
+    width: 65%;
+    background-color: white;
+}
+
+.profiletxt h2 {
+    font-size: 60px;
+}
+
+.profiletxt h3 img {
+    width: 5%;
+    float: left;
+}
