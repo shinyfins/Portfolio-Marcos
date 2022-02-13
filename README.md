@@ -7,4 +7,4 @@ Languages that I'm able to use.
 <br>
 Programs I'm able to create.
 <br>
-
+I've added placeholders considering I dont have an actual body of work quite yet. 
