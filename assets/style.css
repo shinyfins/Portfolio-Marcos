@@ -11,6 +11,7 @@
 body {
     color: black;
     font-family: Helvetica, Arial, sans-serif;
+    background-color: #a5ebc0;
 }
 /* Header styles */
 
@@ -62,10 +63,10 @@ header nav ul li a {
     padding-top: 20px;
     width: 1500px;
     height: auto;
-    background-image: url("images/Bubbles.gif");;
     margin: 0 auto 30px auto;
     color: #262481;
     overflow: auto;
+    background-color: #a5dbeb;
 }
 
 .profile img {
@@ -77,7 +78,6 @@ header nav ul li a {
     padding: 35px;
     float: right;
     width: 65%;
-    background-color: white;
 }
 
 .profiletxt h2 {
@@ -91,7 +91,29 @@ header nav ul li a {
 
 /* PROJECTS */
 
+.proj{
+background-color: #a5ebc0;
+}
+
+.section-title {
+    color: #262481;
+    padding-left: 300px;
+    margin: 100px;
+    font-size: 1000%;
+    
+}
+
+
+
 .proj img {
     width: 90%;
     margin-left: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    
+}
+
+.proj img:hover {
+    background: #262481;
+    
 }
